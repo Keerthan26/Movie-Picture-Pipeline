@@ -1,0 +1,42 @@
+node_modules
+.pytest_cache
+.terraform
+.terraform.tfstate.lock.info
+*.tfstate.backup
+credentials
+.pytest_cache
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.Pipenv/
+.coverage
+htmlcov/
+
+# Node / React
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Terraform
+*.tfstate
+*.tfstate.*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Terraform state
+*.tfstate
+
+# Local build logs
+*.log
